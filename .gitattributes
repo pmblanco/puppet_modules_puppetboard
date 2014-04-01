@@ -1,0 +1,3 @@
+# Forzamos finales de linea unix
+*.sh		eol=lf
+*.erb		eol=lf
