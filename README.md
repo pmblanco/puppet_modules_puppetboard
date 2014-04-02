@@ -51,5 +51,10 @@ Pedro Miguel Blanco
 
 ## Changelog
 
+### v.0.2. 02/04/2014
+Soluciones a problemas con el fichero de configuracion settings.py solucionados
+Se fuerza para que los ficheros .erb sean format de fin de línea linux
+El nombre del paquete se definie igual para todos los S.0. ya que es un paquete de PIP
+
 ### v.0.1. 30/03/2014
 
