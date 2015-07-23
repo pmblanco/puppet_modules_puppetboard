@@ -51,6 +51,9 @@ Pedro Miguel Blanco
 
 ## Changelog
 
+### v.0.4 23/07/2015
+Arreglado problema con provider pip de recursos package. En las últimas versiones usa el binario /usr/bin/pip-package y este no existe. Se soluciona creando un enlace simbólico
+
 ### v.0.3 12/11/2014
 Solucionamos el problema de que no esté el paquete python-pip en el sistema.
 A cambio tenemos dependencia de módulo puppetlabs-stdlib
