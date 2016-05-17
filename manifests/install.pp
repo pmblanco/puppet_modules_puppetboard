@@ -11,7 +11,7 @@ class puppetboard::install {
   }
   
   package { $puppetboard::params::puppetboard_package:
-    ensure    => installed,
+    ensure    => $puppetboard::ensure,
     provider  => 'pip',
     require   => [
       Package['python-pip'],

@@ -2,6 +2,7 @@ class puppetboard (
   $puppetdb_host = $puppetboard::params::puppetdb_host,
   $puppetdb_port = $puppetboard::params::puppetdb_port,
   $document_root = $puppetboard::params::document_root,
+  $ensure        = $puppetboard::params::ensure
 ) inherits puppetboard::params {
 
   class { 'puppetboard::install':
